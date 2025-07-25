@@ -28,12 +28,14 @@
     <!-- header start -->
     <header>
         <!-- navbar -->
-        <nav class="flex justify-between items-center max-w-[1140px] mt-7 mb-[120px] mx-auto">
+        <nav class="flex justify-between items-center max-w-[1140px] mt-7 lg:mb-[120px] mb-7 lg:mx-auto mx-4">
             <!-- logo -->
-            <img src="assets/logo.png" alt="Faugei company logo">
+            <div class="w-16 lg:w-auto">
+                <img class="w-full" src="assets/logo.png" alt="Faugei company logo">
+            </div>
             <!-- nav links -->
             <div class="flex justify-center items-center">
-                <ul class="nav-links flex">
+                <ul class="nav-links hidden lg:flex">
                     <li class="nav-item mr-12">
                         <a class="nav-link inter-font font-bold text-[#252432]" href="http://" target="_blank"
                             rel="noopener noreferrer">Home</a>
@@ -55,13 +57,14 @@
             </div>
         </nav>
         <!-- banner -->
-        <div class="banner flex max-w-[1140px] mx-auto">
+        <div class="banner flex flex-col-reverse lg:flex-row max-w-[1140px] lg:mx-auto gap-7 lg:gap-0">
             <!-- banner content -->
-            <div class="banner-content mr-4 space-y-[13px]">
-                <h1 class="banner-title noto-serif-font text-[4.0625rem] font-bold"><span
+            <div class="banner-content lg:mr-4 space-y-[13px] mx-4">
+                <h1 class="banner-title noto-serif-font text-2xl lg:text-[4.0625rem] font-bold"><span
                         class="text-black">ALWAYS</span> <span class="text-primary">FRESH</span> <span
                         class="text-primary">FLOWERS</span></h1>
-                <p class="inter-font text-secondary text-[1.375rem]">Indulge your senses with the beauty and fragrance
+                <p class="inter-font text-secondary text-sm lg:text-[1.375rem]">Indulge your senses with the beauty and
+                    fragrance
                     of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh
                     flowers that are perfect for any occasion. </p>
             </div>
