@@ -74,9 +74,9 @@
     </header>
     <!-- header end -->
     <!-- main start -->
-    <main class="max-w-[1140px] lg:mx-auto mx-4">
+    <main>
         <!-- plants section start -->
-        <section class="plants-section mt-16 lg:mt-[120px] mb-10 lg:mb-52">
+        <section class="plants-section mt-16 lg:mt-[120px] mb-10 lg:mb-52 max-w-[1140px] lg:mx-auto mx-4">
             <!-- plants section content -->
             <div class="plants-section-content max-w-[888px] mx-auto text-center space-y-4 mb-7 lg:mb-12">
                 <h2 class="plants-section-title noto-serif-font font-bold text-2xl lg:text-[3.125rem]"><span
@@ -216,7 +216,7 @@
         </section>
         <!-- plants section end -->
         <!-- plants lover section start -->
-        <section class="plants-lover-section mb-36 lg:mb-[133px] lg:relative">
+        <section class="plants-lover-section mb-36 lg:mb-[133px] lg:relative max-w-[1140px] lg:mx-auto mx-4">
             <div class="plants-lover-section-container flex flex-col lg:flex-row gap-y-[18px] lg:gap-y-0">
                 <img class="plants-lover-section-image w-full" src="assets/flower-store.png"
                     alt="The picture of a man arranging fresh flowers">
@@ -245,7 +245,7 @@
         </section>
         <!-- plants lover section end -->
         <!-- latest deals section start -->
-        <section class="latest-deals-section mb-10 lg:mb-[120px]">
+        <section class="latest-deals-section mb-10 lg:mb-[120px] max-w-[1140px] lg:mx-auto mx-4">
             <div class="latest-deals-content max-w-[888px] mx-auto mb-12 lg:mb-[120px] text-center">
                 <h2 class="noto-serif-font font-bold text-2xl lg:text-[3.125rem] mb-4"><span
                         class="text-primary">Latest</span>
@@ -262,20 +262,22 @@
                 <div class="space-y-5 lg:space-y-[30px]">
                     <!-- card-1  -->
                     <div class="latest-deals-card-1 relative">
-                        <img class="latest-deals-card-img w-full rounded-[14px]" src="assets/deal-bloom.png" alt="">
+                        <img class="latest-deals-card-img w-full rounded-[14px]" src="assets/deal-bloom.png"
+                            alt="Fresh red roses bouquet for special occasions">
                         <div class="absolute z-10 text-center left-[75px] lg:left-[60px] top-[70px]">
                             <h3 class="noto-serif-font font-bold text-[1.25rem] text-white">60% Off | Bloom Plant</h3>
-                            <a class="inter-font text-white font-semibold underline" href="http://" target="_blank"
-                                rel="noopener noreferrer">Shop Now</a>
+                            <a class="inter-font text-white font-semibold underline hover:text-[#E95A08]" href="http://"
+                                target="_blank" rel="noopener noreferrer">Shop Now</a>
                         </div>
                     </div>
                     <!-- card-2  -->
                     <div class="latest-deals-card-2 relative">
-                        <img class="latest-deals-card-img w-full rounded-[14px]" src="assets/deal-ana.png" alt="">
+                        <img class="latest-deals-card-img w-full rounded-[14px]" src="assets/deal-ana.png"
+                            alt="Colorful tulips arranged for seasonal decoration">
                         <div class="absolute z-10 text-center left-[80px] lg:left-[60px] top-[70px]">
                             <h3 class="noto-serif-font font-bold text-[1.25rem] text-white">30% Off | Ana Plant</h3>
-                            <a class="inter-font text-white font-semibold underline" href="http://" target="_blank"
-                                rel="noopener noreferrer">Shop Now</a>
+                            <a class="inter-font text-white font-semibold underline hover:text-[#E95A08]" href="http://"
+                                target="_blank" rel="noopener noreferrer">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -283,17 +285,34 @@
                 <!-- card-3 -->
                 <div class="latest-deals-card-3 lg:col-span-2 relative">
                     <img class="latest-deals-card-img rounded-[14px] lg:rounded-[22px] w-full"
-                        src="assets/deal-zabo.png" alt="">
+                        src="assets/deal-zabo.png" alt="Picture of the flower grander">
                     <div class="absolute z-10 text-center left-[85px] top-[80px] lg:top-[160px] lg:left-[170px]">
                         <h3 class="noto-serif-font text-[1.25rem] lg:text-[2.5rem] font-bold text-white">25% Off | Zabo
                             Plant</h3>
-                        <a class="inter-font text-white font-semibold lg:text-[1.75rem] underline" href="http://"
-                            target="_blank" rel="noopener noreferrer">Shop Now</a>
+                        <a class="inter-font text-white font-semibold lg:text-[1.75rem] underline hover:text-[#E95A08]"
+                            href="http://" target="_blank" rel="noopener noreferrer">Shop Now</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- latest deals section end -->
+        <!-- join section start -->
+        <section
+            class="join-section bg-[url('assets/news-letter-bg.png')] bg-no-repeat bg-center bg-cover lg:pt-[199px] lg:pb-48 pt-[110px] pb-16 px-9">
+            <div class="join-section-container max-w-[830px] mx-auto text-center space-y-6">
+                <h2 class="join-section-title noto-serif-font font-bold text-white text-[1.25rem] lg:text-[3.125rem]">
+                    Join the colorful Bunch</h2>
+                <form action="" class="flex">
+                    <input
+                        class="bg-white w-full py-4 px-5 focus:outline-[#E95A08] inter-font placeholder:text-[rgba(0,0,0,0.5)] text-black"
+                        type="email" name="email" id="input-email" placeholder="Write email">
+                    <input
+                        class="bg-[#E95A08] py-5 px-3 lg:px-12 hover:bg-gray-400 cursor-pointer inter-font text-white font-semibold"
+                        type="submit" value="Subscribe" title="Subscribe">
+                </form>
+            </div>
+        </section>
+        <!-- join section end -->
     </main>
     <!-- main end -->
     <!-- footer start -->
