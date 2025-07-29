@@ -89,9 +89,9 @@
             <!-- plants section cards container -->
             <div class="plants-section-cards-container grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-[30px]">
                 <!-- plants section card-01 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium  lg:text-[1.375rem]">Lily
                             Blossom
@@ -104,9 +104,9 @@
                     </div>
                 </div>
                 <!-- plants section card-02 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -119,9 +119,9 @@
                     </div>
                 </div>
                 <!-- plants section card-03 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -134,9 +134,9 @@
                     </div>
                 </div>
                 <!-- plants section card-04 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -149,9 +149,9 @@
                     </div>
                 </div>
                 <!-- plants section card-05 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -165,9 +165,9 @@
                     </div>
                 </div>
                 <!-- plants section card-06 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -181,9 +181,9 @@
                     </div>
                 </div>
                 <!-- plants section card-07 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -197,9 +197,9 @@
                     </div>
                 </div>
                 <!-- plants section card-08 -->
-                <div class="plants-card">
+                <div class="plants-card max-w-[270px]">
                     <img src="assets/sample-flower-image.png" alt="The picture of lily blossom flower"
-                        class="plants-card-image mb-[30px]">
+                        class="plants-card-image mb-[30px] w-full">
                     <div class="plants-card-content text-center">
                         <h4 class="plants-card-title inter-font text-tertiary font-medium lg:text-[1.375rem]">Lily
                             Blossom
@@ -304,8 +304,8 @@
                     Join the colorful Bunch</h2>
                 <form action="" class="flex">
                     <input
-                        class="bg-white w-full py-4 px-5 focus:outline-[#E95A08] inter-font placeholder:text-[rgba(0,0,0,0.5)] text-black"
-                        type="email" name="email" id="input-email" placeholder="Write email">
+                        class="bg-white w-full py-4 px-5 focus:invalid:outline-[#E95A08] inter-font placeholder:text-[rgba(0,0,0,0.5)] text-black invalid:text-red-600 focus:valid:outline-green-600"
+                        type="email" name="email" id="input-email" placeholder="Write email" required>
                     <input
                         class="bg-[#E95A08] py-5 px-3 lg:px-12 hover:bg-gray-400 cursor-pointer inter-font text-white font-semibold"
                         type="submit" value="Subscribe" title="Subscribe">
@@ -316,8 +316,92 @@
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer>
-
+    <footer class="bg-[rgba(255,255,255,0.5)] py-[50px] px-5 lg:px-0">
+        <!-- footer container -->
+        <div class=" flex lg:flex-row flex-col gap-5 lg:gap-[100px] max-w-[1120px] mx-auto">
+            <!-- footer content -->
+            <div class="footer-content space-y-4 max-w-[359px]">
+                <figure class="w-[180px] lg:w-[135px]">
+                    <img class="w-full" src="assets/logo.png" alt="Faugei company logo">
+                </figure>
+                <p class="inter-font text-secondary lg:text-[1.375rem]">We deliver fresh flowers and plants with love
+                    and care. Make every moment special with our handpicked floral collections.</p>
+            </div>
+            <!-- footer nav-01 -->
+            <div>
+                <ul class="footer-links space-y-8">
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Home</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">About Us</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Blog</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">FAQ</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- footer nav-02 -->
+            <div>
+                <ul class="footer-links space-y-8">
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Features</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Pricing</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link text-[#6B7280] inter-font hover:text-[#E95A08] hover:font-semibold visited:text-purple-700"
+                            href="" target="_blank" rel="noopener noreferrer">Help Center</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- footer nav-03 -->
+            <div>
+                <ul class="footer-links flex items-center gap-6">
+                    <li class="footer-item">
+                        <a class="footer-link" href="https://www.linkedin.com/" target="_blank"
+                            rel="noopener noreferrer"><img class="footer-icon" src="assets/icon-linkedin.png"
+                                alt="linkedin icon"></a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="https://x.com/" target="_blank" rel="noopener noreferrer"><img
+                                class="footer-icon" src="assets/icon-twitter.png" alt="x icon"></a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="https://www.facebook.com/" target="_blank"
+                            rel="noopener noreferrer"><img class="footer-icon" src="assets/icon-facebook.png"
+                                alt="facebook icon"></a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="https://www.youtube.com/" target="_blank"
+                            rel="noopener noreferrer"><img class="footer-icon" src="assets/icon-youtube.png"
+                                alt="youtube icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <!-- footer end -->
 </body>
