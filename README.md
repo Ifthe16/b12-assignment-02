@@ -1,8 +1,7 @@
 # 🌷 Faugei
 
-*Welcome to ***Faugei***, a beautifully crafted, clean and responsive flower shop website designed to showcase fresh flowers, indoor plants, and exclusive floral deals for every occasion.
+*Welcome to ***Faugei***, a beautifully crafted, clean and responsive flower shop website designed to showcase fresh flowers, indoor plants, and exclusive floral deals for every occasion.*
 
-*
 
 ## 📌 About This Project
 
